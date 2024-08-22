@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Style sheets -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fontawsome link -->
+     <!-- Javascript file -->
+      <script src="script.js"> </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav_bar-top">
+        <div class="container-fluild">
+          <div class="text-container">
+            <div class="text-content">
+              <p class="para-class">
+                <span class="span-text"
+                  ><i class="fa-solid fa-envelope"></i
+                  >Example.com@gmail.com</span
+                >
+              </p>
+              <p class="para-class">
+                <span class="span-text"
+                  ><i class="fa-solid fa-phone"></i>+021 1234 5678</span
+                >
+              </p>
+            </div>
+            <div class="social-links">
+              <i class="fa-brands icon-social fa-facebook"></i>
+              <i class="fa-brands icon-social fa-snapchat"></i>
+              <i class="fa-brands icon-social fa-whatsapp"></i>
+              <i class="fa-brands icon-social fa-instagram"></i>
+              <i class="fa-brands icon-social fa-linkedin-in"></i>
+            </div>
+            <div class="nav-container">
+              <!-- navbar bootstrap -->
+              <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="/">
+                    <h3 class="heading-logo">Musa<span>fir</span></h3>
+                  </a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Tours</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Packages</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarDropdownMenuLink"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          FAQ
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#">About Us</a>
+                          </li>
+                          <li><a class="dropdown-item" href="#">Company</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Experience</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of navbar -->
+
+      <div class="home-section">
+        <div class="container-fluid gx-0">
+          <div
+            id="carouselExampleFade"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="home-content img-1">
+                  <div class="content-home">
+                    <h3 class="heading-home">LET US TAKE YOU TO YOUR</h3>
+                    <h2 class="heading-lg-home">DREAM DESTINATION</h2>
+                    <a href="#" class="btn-home">Explore More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="home-content img-2">
+                  <div class="content-home">
+                    <h3 class="heading-home">
+                      TRAVEL WHERE YOUR HEART WANT TO
+                    </h3>
+                    <h2 class="heading-lg-home">WITH OUR TOURS & TRAVEL</h2>
+                    <a href="#" class="btn-home">Explore More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span><i class="fa-solid icon-scroll fa-angles-left"></i></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span><i class="fa-solid icon-scroll fa-angles-right"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of header -->
+
+    <div class="selection">
+      <div class="selection-container">
+        <select class="countries boxes">
+          <option value="Contry0">Countries</option>
+          <option value="Contry0">England</option>
+          <option value="Contry0">South Africa</option>
+          <option value="Contry0">Korea</option>
+          <option value="Contry0">Austrelia</option>
+          <option value="Contry0">Srilanka</option>
+        </select>
+        <select class="destination boxes">
+          <option value="Destination">Destination</option>
+          <option value="Contry0">Destination1</option>
+          <option value="Contry0">Destination2</option>
+          <option value="Contry0">Destination3</option>
+          <option value="Contry0">Destination4</option>
+          <option value="Contry0">Destination5</option>
+        </select>
+        <select class="destination boxes">
+          <option value="Destination">Budget</option>
+          <option value="Contry0">100000₹</option>
+          <option value="Contry0">200000₹</option>
+          <option value="Contry0">30000₹</option>
+          <option value="Contry0">500000₹</option>
+          <option value="Contry0">100000₹</option>
+        </select>
+        <select class="destination boxes">
+          <option value="Destination">Duration</option>
+          <option value="Contry0">Duration1</option>
+          <option value="Contry0">Duration2</option>
+          <option value="Contry0">Duration3</option>
+          <option value="Contry0">Duration4</option>
+          <option value="Contry0">Duration5</option>
+        </select>
+        <a href="#" class="select-btn">Submit</a>
+      </div>
+    </div>
+    <!-- about section -->
+    <section class="about">
+      <h3 class="about-heading">ABOUT OUR TRAVEL AGENCY</h3>
+      <p class="para-about-details">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+        facilis ut id tenetur magnam. Omnis, commodi ea molestiae nihil aperiam
+        eos aut deserunt nostrum. Unde hic cupiditate ipsam facilis ratione!
+      </p>
+      <div class="container about-us-content">
+        <div class="row">
+          <div class="col-lg-3 col-md-12">
+            <div class="img-about">
+              <img
+                src="data:image/jpeg;base64,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"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="content-about">
+              <h4 class="heading-content">About Us</h4>
+              <p class="para-content-about">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur molestiae labore ipsa dolor esse consequatur
+                aliquid sapiente eius, cum, mollitia dolore alias ex deleniti
+                quas. Ullam earum ad atque reprehenderit!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="img-about">
+              <img
+                src="https://images.theconversation.com/files/379029/original/file-20210115-17-uinw6i.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1000&fit=clip"
+                style="width: 300px; height: 168"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services section -->
+    <section class="services">
+      <h4 class="heading_sm">Services</h4>
+      <h2 class="heading-lg">Travel & Tours Services</h2>
+      <div class="container container-services">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 px-lg-2">
+            <div class="content-services">
+              <div class="img-container">
+                <img
+                  src="/Image/fa-solid_globe.svg"
+                  class="img-services"
+                  style="width: 100px"
+                />
+              </div>
+              <h3 class="heading-tour">Different Countries</h3>
+              <p class="paa-tour">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="" class="btn-service">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 px-lg-2">
+            <div class="content-services">
+              <div class="img-container">
+                <img
+                  src="/Image/fa-solid_globe.svg"
+                  class="img-services"
+                  style="width: 100px"
+                />
+              </div>
+              <h3 class="heading-tour">Different Countries</h3>
+              <p class="paa-tour">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="" class="btn-service">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 px-lg-2">
+            <div class="content-services">
+              <div class="img-container">
+                <img
+                  src="/Image/fa-solid_globe.svg"
+                  class="img-services"
+                  style="width: 100px"
+                />
+              </div>
+              <h3 class="heading-tour">Different Countries</h3>
+              <p class="paa-tour">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="" class="btn-service">Read More</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 px-lg-2">
+            <div class="content-services">
+              <div class="img-container">
+                <img
+                  src="/Image/fa-solid_globe.svg"
+                  class="img-services"
+                  style="width: 100px"
+                />
+              </div>
+              <h3 class="heading-tour">Different Countries</h3>
+              <p class="paa-tour">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="" class="btn-service">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- packages section -->
+
+    <section class="packages">
+      <h4 class="heading_sm">Packages</h4>
+      <h2 class="heading-lg">Travels & Tours Packages</h2>
+      <div class="container-packages">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="content-packages">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?cs=srgb&dl=pexels-fabianwiktor-994605.jpg&fm=jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Let's Discover the world's beautiful places together
+                    </p>
+                    <hr />
+                    <div class="rating">
+                      <p class="rate">
+                        <span class="stars"
+                          ><i class="fa-solid fa-star"></i></span
+                        >4.8(150)
+                      </p>
+                      <h4 class="price">$200</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="content-packages">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Moun_N%C3%A9.jpg/1280px-Moun_N%C3%A9.jpg"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Let's Discover the world's beautiful places together
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="rating">
+                    <p class="rate">
+                      <span class="stars"><i class="fa-solid fa-star"></i></span
+                      >4.8(150)
+                    </p>
+                    <h4 class="price">$200</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="content-packages">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Moun_N%C3%A9.jpg/1280px-Moun_N%C3%A9.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Let's Discover the world's beautiful places together.
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="rating">
+                    <p class="rate">
+                      <span class="stars"><i class="fa-solid fa-star"></i></span
+                      >4.8(150)
+                    </p>
+                    <h4 class="price">$200</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer-->
+    <footer>
+      <div class="footer-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <h3 class="heading-logo footer-logo">Musa<span>fir</span></h3>
+              <p class="footer-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <h5 class="heading-sm-footer">FOLLOW US</h5>
+
+              <div class="social-links-footer">
+                <i class="fa-brands icon-social-footer fa-facebook"></i>
+                <i class="fa-brands icon-social-footer fa-snapchat"></i>
+                <i class="fa-brands icon-social-footer fa-whatsapp"></i>
+                <i class="fa-brands icon-social-footer fa-instagram"></i>
+                <i class="fa-brands icon-social-footer fa-linkedin-in"></i>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="pages-footer">
+                <h3 class="heading-pages">Page Links</h3>
+                <div class="heading-pages">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link footer-links" aria-current="page" href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link footer-links" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link footer-links" href="#">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link footer-links" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link footer-links" href="#">Packages</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link footer-links dropdown-toggle"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        FAQ
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink"
+                      >
+                        <li>
+                          <a class="dropdown-item" href="#">About Us</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Company</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Experience</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link footer-links" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link footer-links" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <h3 class="heading-pages">Contact Us</h3>
+                <p class="contact-footer">
+                  <span class="text-contact">
+                    <i class="fa-solid fa-location-dot"></i>
+                    123 Street, New York, USA
+                  </span>
+                  <span class="text-contact">
+                    <i class="fa-solid fa-envelope"></i>Example.@gmail.com
+                  </span>
+                  <span class="text-contact">
+                    <i class="fa-solid fa-phone"></i>+021 1234 5678
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="footer-right">
+            <p class="right-para"> Copyright © Prajakta Bansod 2024. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

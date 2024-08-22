@@ -1,0 +1,428 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgb(245, 240, 240) !important;
+  height: 200vh;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_bar-top {
+  background-color: #fcf6f6;
+  width: 100%;
+  height: 16vh;
+  padding: 26px;
+}
+.text-content {
+  display: flex;
+  align-items: center;
+}
+.para-class {
+  margin: 0px;
+  font-size: 16px;
+  color: rgb(0, 0, 0, 0.589);
+  font-weight: 500;
+  margin: 0px 4px;
+}
+.span-text {
+  padding: 0px 6px;
+}
+.icon-social {
+  color: orange;
+  font-size: 21px;
+  padding: 0px 5px;
+  margin: 0px 7px;
+}
+.icon-social:hover {
+  color: rgb(248, 185, 69);
+}
+.nav-container {
+  position: absolute;
+  top: 70px;
+  left: 52px;
+  width: 90%;
+  background-color: #ffff;
+  padding: 16px 38px;
+  z-index: 55;
+}
+.heading-logo {
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.heading-logo span {
+  color: orange;
+}
+.nav-item .nav-link {
+  color: rgba(8, 8, 8, 0.655);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+.nav-item .nav-link:hover {
+  color: orange;
+}
+.home-section {
+  width: 100%;
+  height: 84%;
+}
+.home-content {
+  width: 100%;
+  height: 84vh;
+  background-position: right;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: -55;
+}
+.img-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://hips.hearstapps.com/hmg-prod/images/champagne-beach-espiritu-santo-island-vanuatu-royalty-free-image-1655672510.jpg?crop=1.00xw:0.755xh;0,0.173xh&resize=1200:*);
+}
+.img-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://media.timeout.com/images/106041640/image.jpg);
+}
+.content-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffff;
+  letter-spacing: 0.5rem;
+}
+.heading-home {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+.heading-lg-home {
+  font-size: 70px;
+  font-weight: 700;
+  margin: 10px 0px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.btn-home {
+  display: inline-block;
+  padding: 18px 38px;
+  background-color: orange;
+  color: #ffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 660px;
+  margin: 28px 0px 0px 0px;
+  transition: 0.2s ease-in;
+}
+.btn-home:hover {
+  background-color: rgb(229, 120, 22);
+}
+.icon-scroll {
+  color: #ffff;
+  background-color: #212121;
+  border-color: #212121;
+  padding: 12px;
+  font-size: 24px;
+}
+.selection {
+  width: 90%;
+  height: 20vh;
+  background-color: rgb(255, 250, 250);
+  position: absolute;
+  bottom: -88px;
+  left: 52px;
+  padding: 0px 26px;
+  z-index: 50;
+  box-shadow: 2px 2px 14px rgb(145, 142, 142);
+}
+.selection-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.boxes {
+  padding: 14px 20px;
+  width: 180px;
+  margin: 0px 10px;
+  outline: none;
+}
+.select-btn {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0px 10px;
+  transition: 0.3s ease-in;
+}
+.select-btn:hover {
+  background-color: rgb(229, 120, 22);
+}
+.about {
+  width: 100%;
+  height: 90vh;
+  margin-top: 120px;
+}
+.about-heading {
+  color: orange;
+  text-align: center;
+  display: block;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding: 20px 0px;
+  position: relative;
+}
+.about-heading::before {
+  content: "";
+  position: absolute;
+  top: 712px;
+  left: 64px;
+  width: 60px;
+  background-color: red;
+  height: 3px;
+  width: 149px;
+}
+.about-heading::after {
+  content: "";
+  position: absolute;
+  top: 712px;
+  right: 64px;
+  width: 60px;
+  background-color: red;
+  height: 3px;
+  width: 149px;
+}
+.para-about-details {
+  display: block;
+  color: #212121;
+  font-size: 1rem;
+  line-height: 35px;
+  margin-bottom: 0px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+.about-us-content {
+  margin-top: 50px;
+}
+.img-about {
+  width: 100px;
+  height: 380px;
+}
+.image-content {
+  width: 100%;
+  height: 100% !important;
+}
+.heading-content {
+  font-size: 34px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px 20px;
+  color: orange;
+}
+.para-content-about {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 24px;
+  color: #212121;
+}
+.heading_sm {
+  text-transform: uppercase;
+  color: #7ab730 !important;
+  letter-spacing: 3px;
+  font-weight: 21px;
+  text-align: center;
+}
+.heading-lg {
+  font-size: 44px;
+  font-weight: 800;
+  margin: 20px 0px;
+  text-align: center;
+}
+.container-services {
+  margin-top: 66px;
+}
+.content-services {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 14px;
+  transition: 0.3s ease-in;
+}
+.img-services {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 11px;
+}
+.heading-tour {
+  font-size: 19px;
+  margin: 7px 0px;
+  font-weight: 700;
+}
+.para-tour {
+  font-size: 14px;
+  color: #212121;
+  font-weight: 600;
+  margin: 8px 0px;
+}
+.btn-service {
+  display: inline-block;
+  padding: 10px 26px;
+  text-decoration: none;
+  color: #ffff;
+  background-color: orange;
+  font-weight: 500;
+  border-radius: 8px;
+  margin: 10px 0px;
+  transition: 0.2s ease-in;
+}
+.content-services:hover {
+  transform: translateY(-6px);
+  box-shadow: 2px 2px 14px gray;
+}
+.content-services:hover .btn-service {
+  background-color: #0277bd;
+  color: #ffff;
+}
+.packages {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 16px 0px;
+  margin: 30px 0px;
+}
+.container-packages {
+  margin-top: 62px;
+}
+.card:hover {
+  box-shadow: 1px 1px 10px rgb(145, 142, 142);
+}
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rate {
+  font-size: 15px;
+  font-weight: 500;
+}
+.stars {
+  color: goldenrod;
+}
+footer {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(31, 29, 29);
+  padding: 24px;
+}
+.footer-container {
+  margin: 20px;
+  padding: 30px 4px 9px 4px;
+}
+.footer-logo {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.footer-para {
+  font-size: 14px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.534);
+  margin: 25px 0px;
+}
+
+.heading-sm-footer {
+  color: white;
+  font-size: 22px;
+  letter-spacing: 4px;
+  margin: 18px 0px;
+}
+.social-links-footer {
+  font-size: 21px;
+  padding: 9px;
+  color: rgb(13, 196, 13);
+  margin: 0px 4px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.icon-social-footer{
+  font-size: 21px;
+  padding: 9px;
+  border: 1px solid rgb(13, 196, 13);
+  color: rgb(13, 196, 13);
+  margin: 0px 4px;
+  cursor: pointer;
+}
+.icon-social-footer:hover {
+  color: #ffff;
+  background-color: rgb(13, 196, 13);
+}
+.heading-pages {
+  color: rgba(255, 255, 255, 0.863);
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.footer-links {
+  font-size: 15px !important;
+  color: rgba(255, 255, 255, 0.534) !important;
+}
+.pages-footer {
+  padding: 6px 18px;
+}
+.footer-links:hover {
+  color: white !important;
+}
+.contact-footer {
+  display: flex;
+  flex-direction: column;
+}
+.text-contact {
+  margin: 16px, 0px;
+  color: white;
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.534);
+}
+.footer-icons{
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.863);
+    padding: 0px 9px;
+}
+.footer-right{
+    margin: 22px;
+    border-top: rgba(255, 255, 255, 0.534);
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-para{
+    margin: 0px;
+    color:rgba(255, 255, 255, 0.534);
+}

@@ -1,0 +1,51 @@
+@media(max-width:1500px){
+    .boxes{
+        padding: 14px 20px;
+        width: 221px;
+        margin:0px 10px;
+        outline: none;
+    }
+    .nav-container {
+        position: absolute;
+        top: 58px;
+        left: 52px;
+        width: 90%;
+        background-color: #ffff;
+        padding: 16px 38px;
+        z-index: 55;
+      }
+      .para-content-about {
+        font-size: 16px;
+        text-align: center;
+        line-height: 24px;
+      }
+      .packages{
+        width: 100%;
+        height: auto;
+        padding: 16px 0px;
+      }
+      footer{
+width: 100%;
+height: auto;
+      }
+}
+@media(max-width:1130px){
+.heading-lg-home{
+    font-size: 56px;
+    line-height: 74px;
+}
+.about-heading::before {
+    content: "";
+    position: absolute;
+    top: 44px;
+    left: 44px;
+    
+  }
+  .about-heading::after {
+    content: "";
+    position: absolute;
+    top: 712px;
+    right: 64px;
+   
+  }
+}
